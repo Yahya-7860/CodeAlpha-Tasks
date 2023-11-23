@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=EB+Garamond:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.big-container{
+    background-image: url("images/bg-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 30%;
+    height: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0.2rem .2rem 1rem 0rem rgb(72, 72, 72);
+    background-image: linear-gradient(to top,rgb(129, 173, 254),white);
+}
+.content img{
+    width: 20rem;
+}
+.content h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+}
+.first-span{
+    color: rgb(75, 75, 254);
+    font-family: 'Bree Serif', serif;
+}
+.content h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-family: 'Bree Serif', serif;
+
+}
+.content p{
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+.content i{
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.886); 
+    border-radius: 3rem;
+    padding: 1rem;
+    color: white;    
+    transition: .2s ease-in-out;
+
+}
+.content i:active{
+    transform: scale(0.8);
+    transition: .08s ease-in-out;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
+.input input{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.age-update-heading{
+    text-align: center;
+    padding: 2rem;
+}
+.second-span{
+    color: rgb(36, 25, 255);
+}
+.age-update-details{
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+.age-update-details div{
+    font-size: 3rem;
+    color: blue;
+}
